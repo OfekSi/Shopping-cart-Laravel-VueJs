@@ -18,7 +18,7 @@ Open the "Server" directory and follow the instructions as seen below:
 4.	Set the database connection details in .env file
 
 	``$ php artisan key:generate
-	$ php artisan migrate
+	$ php artisan migrate <br />
 	$ php artisan db:seed
 	$ php artisan passport:install
 	$ php artisan serve --port=88888``
