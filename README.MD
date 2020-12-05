@@ -12,7 +12,7 @@ All API End points documentation can be found at [this link](https://documenter.
 
 ### Backend:
 Open the "Server" directory and follow the instructions as seen below:
-1.	``$ composer install``
+1.	```sh composer install```
 2.	Create a new database
 3.	Make a copy of ".env.example" and change the new file name to ".env"
 4.	Set the database connection details in .env file
@@ -22,14 +22,15 @@ Open the "Server" directory and follow the instructions as seen below:
 	 php artisan migrate 
 	 php artisan db:seed
 	 php artisan passport:install
-	 php artisan serve --port=88888```
-
+	 php artisan serve --port=88888
+	```
 
 
 ### Frontend:
 Open the "client" directory
-	``$ npm install
-	$ npm run serve``
+	``sh
+	npm install
+	npm run serve```
 
 If you change the server port, follow the instruction below:
 
