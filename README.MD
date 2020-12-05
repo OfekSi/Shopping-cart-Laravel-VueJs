@@ -12,7 +12,7 @@ All API End points documentation can be found at [this link](https://documenter.
 
 ### Backend:
 Open the "Server" directory and follow the instructions as seen below:
-1.	```sh composer install```
+1.	```composer install```
 2.	Create a new database
 3.	Make a copy of ".env.example" and change the new file name to ".env"
 4.	Set the database connection details in .env file
