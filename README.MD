@@ -17,11 +17,12 @@ Open the "Server" directory and follow the instructions as seen below:
 3.	Make a copy of ".env.example" and change the new file name to ".env"
 4.	Set the database connection details in .env file
 
-	``$ php artisan key:generate
-	$ php artisan migrate <br />
-	$ php artisan db:seed
-	$ php artisan passport:install
-	$ php artisan serve --port=88888``
+	``` sh
+	 php artisan key:generate
+	 php artisan migrate 
+	 php artisan db:seed
+	 php artisan passport:install
+	 php artisan serve --port=88888```
 
 
 
